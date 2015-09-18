@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AppMenun</string>
+
+    <string name="Bem_Vindo">Bem Vindo!</string>
+    <string name="Sobre">Sobre</string>
+    <string name="Sair">Sair</string>
+
+    //No string-array ficará o nome dos itens que você vai colocar no menu. Já no array ficará o caminho para os ícones do menu.
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Cardápio</item>
+        <item>Notícias</item>
+        <item>Eventos</item>
+        <item>Locais</item>
+        <item>Anúncios</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_menu</item>
+        <item>@drawable/ic_news</item>
+        <item>@drawable/ic_events</item>
+        <item>@drawable/ic_places</item>
+        <item>@drawable/ic_ads</item>
+    </array>
+
+</resources>
